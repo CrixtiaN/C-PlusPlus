@@ -5,7 +5,7 @@ int main(){
 	
 	/*
 	//Raices Reales
-	float a,b,c,v;
+	float a,b,c,v,x1,x2;
 	cout<<"Introduzca el valor del primer elemento: ";
 	cin>>a;
 	cout<<"Introduzca el valor del segundo elemento: ";
@@ -13,11 +13,15 @@ int main(){
 	cout<<"Introduzca el valor del tercero elemento: ";
 	cin>>c;
 	v = (b*b)-4*a*c;
+	//cout<<v<<endl;
 	if(v<0){
 		cout<<"La raiz no es real"<<endl;
 	}
 	else{
-		cout<<"Las raices reales de la ecuacion de 2do grado son: "<<sqrt(v)<<" y "<<sqrt(v)*-1<<endl;
+		//cout<<"Las raices reales de la ecuacion de 2do grado son: "<<sqrt(v)<<" y "<<sqrt(v)*-1<<endl;
+		x1=(-b+sqrt(v))/2*a;
+		x2=(-b-sqrt(v))/2*a;
+		cout<<"Las raices reales de la ecuacion de 2do grado son: "<<x1<<" y "<<x2<<endl;
 	}
 	*/
 	
@@ -195,8 +199,8 @@ int main(){
 	while(p==1);
 	*/
 	
-	//Proceso de 6 numeros
 	/*
+	//Proceso de 6 numeros
 	int n, i, j, par=0, impar=0, n2, n4;
 	for(i=1;i<=6;i++){
 		cout<<"Introduzca un numero: ";
